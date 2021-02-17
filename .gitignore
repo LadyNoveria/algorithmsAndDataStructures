@@ -457,3 +457,19 @@ Hw8ForCore/Hw8ForCore/obj/Debug/net5.0/Hw8ForCore.AssemblyInfo.cs
 *.editorconfig
 
 *.CopyComplete
+
+HomeWork/Hw1/Hw1.1/.vs/Hw1.1/v16/.suo
+
+HomeWork/Hw1/Hw1.1/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs
+
+HomeWork/Hw1/Hw1.1/obj/Debug/netcoreapp3.1/Hw1.1.AssemblyInfo.cs
+
+HomeWork/Hw1/Hw1.1/obj/Hw1.1.csproj.nuget.g.props
+
+*.targets
+
+HomeWork/VerificationLibrary/obj/Debug/netstandard2.0/.NETStandard,Version=v2.0.AssemblyAttributes.cs
+
+HomeWork/VerificationLibrary/obj/Debug/netstandard2.0/VerificationLibrary.AssemblyInfo.cs
+
+HomeWork/VerificationLibrary/obj/VerificationLibrary.csproj.nuget.g.props
