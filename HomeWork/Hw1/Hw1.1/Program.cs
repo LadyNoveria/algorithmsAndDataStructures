@@ -5,13 +5,19 @@ namespace Hw1._1
 {
     class Program
     {
+        /*Требуется реализовать на C# функцию согласно блок-схеме. Блок-схема описывает алгоритм 
+         * проверки, простое число или нет.
+            Написать консольное приложение.
+            Алгоритм реализовать отдельно в функции согласно блок-схеме.
+            Написать проверочный код в main функции .*/
         static void Main(string[] args)
         {
             VerificationClass[] verificationValues = new VerificationClass[6];
             verificationValues = FillingArray(verificationValues);
             Tests(verificationValues);
+            Console.ReadKey();
         }
-
+        //Проверка числа на Простое/Не простое
         static public string CheckNumber(int number) {
             int d = 0;
             int i = 2;
@@ -31,7 +37,7 @@ namespace Hw1._1
             else
                 return "Not a prime number";
         }
-
+        //Заполнение массива значениями для тестов
         static public VerificationClass[] FillingArray(VerificationClass[] verificationValues)
         {
             verificationValues[0] = new VerificationClass("3","Prime number");
@@ -42,7 +48,7 @@ namespace Hw1._1
             verificationValues[5] = new VerificationClass("Invalid data type");
             return verificationValues;
         }
-
+        //Тестирование
         static public void Tests(VerificationClass[] verificationValues)
         {
             for (int i = 0; i < verificationValues.Length; i++)
