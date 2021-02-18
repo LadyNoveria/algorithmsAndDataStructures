@@ -473,3 +473,11 @@ HomeWork/VerificationLibrary/obj/Debug/netstandard2.0/.NETStandard,Version=v2.0.
 HomeWork/VerificationLibrary/obj/Debug/netstandard2.0/VerificationLibrary.AssemblyInfo.cs
 
 HomeWork/VerificationLibrary/obj/VerificationLibrary.csproj.nuget.g.props
+
+HomeWork/Hw1/Hw1.2/obj/Debug/netcoreapp3.1/Hw1.2.AssemblyInfo.cs
+
+*.props
+
+HomeWork/Hw1/Hw1.2/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs
+
+HomeWork/Hw1/Hw1.2/.vs/Hw1.2/v16/.suo
